@@ -1,0 +1,26 @@
+[{
+    "label": "Cambiar contraseña",
+    "route": "ChangePassword",
+    "disabled": false,
+    "background": "#F5F2F3"
+  },
+  {
+    "label": "Descubre tu ADN musical",
+    "params": {
+      "screen": "Tastes"
+    },
+    "route": "Auth",
+    "disabled": false
+  },
+  {
+    "label": "Aviso de privacidad",
+    "route": "NoticePrivacy",
+    "disabled": false,
+    "background": "#F5F2F3"
+  },
+  {
+    "label": "Términos y condiciones",
+    "route": "TermsAndConditions",
+    "disabled": false
+  }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "title": "nearYou",
+        "name": "Cerca de ti", 
+        "iconName": "map-marker-alt",
+        "mosaicStyle": { "backgroundColor": "#002C72" }
+    },
+    {
+        "title": "announcements",
+        "name": "Anunciados recientemente",  
+        "iconName": "microphone",
+        "mosaicStyle": { "backgroundColor": "#004489" }
+    },
+    {
+        "title": "trending",
+        "name": "Lo más buscado",  
+        "iconName": "chart-line",
+        "mosaicStyle": { "backgroundColor": "#F57F3A" }
+    },
+    {
+        "title": "suggestions",
+        "name": "Recomendados para ti",  
+        "iconName": "gem",
+        "mosaicStyle": { "backgroundColor": "#004489" }
+    },
+    {
+        "title": "presales",
+        "name": "Preventas Citibanamex",  
+        "iconName": "credit-card",
+        "mosaicStyle": { "backgroundColor": "#00BCF2" }
+    },
+    {
+        "title": "venues",
+        "name": "Inmuebles",  
+        "iconName": "building",
+        "mosaicStyle": { "backgroundColor": "#00BCF2" }
+    },
+    {
+        "title": "artists",
+        "name": "Artista",  
+        "iconName": "music",
+        "mosaicStyle": { "backgroundColor": "#F59623" }
+    },
+    {
+        "title": "family",
+        "name": "Familiares",  
+        "iconName": "ticket-alt",
+        "mosaicStyle": { "backgroundColor": "#002C72" }
+    },
+    {
+        "title": "categories",
+        "name": "Categorías",  
+        "iconName": "list-ul",
+        "mosaicStyle": { "backgroundColor": "#F57F3A" }
+    },
+    {
+        "title": "MSICiti",
+        "name": "3, 6, 9 MSI Citibanamex",  
+        "iconName": "",
+        "mosaicStyle": { "backgroundColor": "#F57F3A" }
+    }
+]

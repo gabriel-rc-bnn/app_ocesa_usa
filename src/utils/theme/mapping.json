@@ -1,0 +1,220 @@
+{
+  "strict": {
+    "text-font-family": "Interstate-Regular",
+
+    "text-heading-1-font-size": 44,
+    "text-heading-1-font-weight": "normal",
+    "text-heading-1-font-family": "Interstate-Black",
+
+    "text-heading-2-font-size": 40,
+    "text-heading-2-font-weight": "normal",
+    "text-heading-2-font-family": "Interstate-Black",
+
+    "text-heading-3-font-size": 36,
+    "text-heading-3-font-weight": "normal",
+    "text-heading-3-font-family": "Interstate-Black",
+
+    "text-heading-4-font-size": 32,
+    "text-heading-4-font-weight": "normal",
+    "text-heading-4-font-family": "Interstate-Black",
+
+    "text-heading-5-font-size": 28,
+    "text-heading-5-font-weight": "normal",
+    "text-heading-5-font-family": "Interstate-Black",
+
+    "text-heading-6-font-size": 24,
+    "text-heading-6-font-weight": "normal",
+    "text-heading-6-font-family": "Interstate-Black",
+
+    "text-subtitle-1-font-size": 18,
+    "text-subtitle-1-font-weight": "normal",
+    "text-subtitle-1-font-family": "Interstate-Regular",
+
+    "text-subtitle-2-font-size": 16,
+    "text-subtitle-2-font-weight": "normal",
+    "text-subtitle-2-font-family": "Interstate-Regular",
+
+    "text-paragraph-1-font-size": 18,
+    "text-paragraph-1-font-weight": "normal",
+    "text-paragraph-1-font-family": "Interstate-Regular",
+
+    "text-paragraph-2-font-size": 16,
+    "text-paragraph-2-font-weight": "normal",
+    "text-paragraph-2-font-family": "Interstate-Light",
+
+    "text-caption-1-font-size": 14,
+    "text-caption-1-font-weight": "normal",
+    "text-caption-1-font-family": "Interstate-Regular",
+
+    "text-caption-2-font-size": 12,
+    "text-caption-2-font-weight": "400",
+    "text-caption-2-font-family": "Interstate-Regular",
+
+    "text-label-font-size": 16,
+    "text-label-font-weight": "normal",
+    "text-label-font-family": "Interstate-Bold"
+  },
+  "components": {
+    "BottomNavigationTab": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "iconHeight": 22,
+            "state": {
+              "hover": {
+                "textColor": "text-info-hover-color",
+                "iconTintColor": "text-info-hover-color"
+              },
+              "selected": {
+                "textColor": "text-info-color",
+                "iconTintColor": "text-info-color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "BottomNavigation": {
+      "appearances": {
+        "default": {
+          "mapping": {
+            "indicatorBackgroundColor": "color-info-default",
+            "backgroundColor": "background-basic-color-2"
+          }
+        }
+      }
+    },
+    "Button": {
+      "meta": {
+        "variantGroups": {}
+      },
+      "appearances": {
+        "filled": {
+          "mapping": {
+            "textFontFamily": "text-label-font-family"
+          },
+          "variantGroups": {
+            "status": {
+              "basic": {
+                "textColor": "$color-primary-default"
+              }
+            },
+            "size": {
+              "medium": {
+                "textFontSize": 16,
+                "textFontWeight": "normal",
+                "iconMarginHorizontal": 0
+              },
+              "large": {
+                "textFontWeight": "normal",
+                "iconMarginHorizontal": 0
+              }
+            }
+          }
+        }
+      }
+    },
+    "Tab": {
+      "meta": {
+        "parameters": {
+          "backgroundColor": {
+            "type": "string"
+          }
+        }
+      },
+      "appearances": {
+        "default": {
+          "mapping": {
+            "textFontSize": "text-subtitle-2-font-size",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textFontFamily": "text-subtitle-2-font-family",
+            "state": {
+              "selected": {
+                "textColor": "#fff",
+                "iconTintColor": "text-info-color"
+              }
+            }
+          }
+        },
+        "basic": {
+          "mapping": {
+            "textMarginVertical": 2,
+            "backgroundColor": "background-basic-color-2",
+            "textFontSize": "text-subtitle-2-font-size",
+            "textFontWeight": "text-subtitle-2-font-weight",
+            "textFontFamily": "text-subtitle-2-font-family",
+            "textColor": "text-hint-color",
+            "iconWidth": 22,
+            "iconHeight": 22,
+            "iconMarginVertical": 2,
+            "iconTintColor": "text-hint-color",
+            "state": {
+              "hover": {
+                "textColor": "text-info-hover-color",
+                "iconTintColor": "text-info-hover-color"
+              },
+              "selected": {
+                "textColor": "text-info-color",
+                "iconTintColor": "text-info-color"
+              }
+            }
+          }
+        }
+      }
+    },
+    "TabBar": {
+      "meta": {
+        "scope": "all",
+        "parameters": {
+          "paddingVertical": {
+            "type": "number"
+          },
+          "backgroundColor": {
+            "type": "string"
+          },
+          "indicatorHeight": {
+            "type": "number"
+          },
+          "indicatorBorderRadius": {
+            "type": "number"
+          },
+          "indicatorBackgroundColor": {
+            "type": "string"
+          },
+          "minHeight": {
+            "type": "number"
+          }
+        },
+        "appearances": {
+          "default": {
+            "default": true
+          },
+          "primary": {
+            "default": false
+          }
+        },
+        "variantGroups": {},
+        "states": {}
+      },
+      "appearances": {
+        "primary": {
+          "mapping": {
+            "minHeight": 56,
+            "paddingVertical": 4,
+            "indicatorHeight": 4,
+            "indicatorBorderRadius": 2,
+            "backgroundColor": "color-primary-default",
+            "indicatorBackgroundColor": "color-info-default"
+          }
+        },
+        "default": {
+          "mapping": {
+            "minHeight": 56,
+            "backgroundColor": "background-basic-color-2",
+            "indicatorBackgroundColor": "color-info-default"
+          }
+        }
+      }
+    }
+  }
+}

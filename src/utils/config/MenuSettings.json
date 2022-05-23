@@ -1,0 +1,12 @@
+[{
+    "label": "Términos y condiciones",
+    "route": "TermsAndConditions",
+    "disabled": false,
+    "background": "#F5F2F3"
+  },
+  {
+    "label": "Aviso de privacidad",
+    "route": "NoticePrivacy",
+    "disabled": false
+  }
+]

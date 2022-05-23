@@ -139,7 +139,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.ocesa.app"
+        applicationId "com.ocesa.usa.app"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode project.env.get("APP_VERSION_CODE").toInteger()

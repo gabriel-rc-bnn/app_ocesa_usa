@@ -15,9 +15,9 @@
                   <BuildableReference
                      BuildableIdentifier = "primary"
                      BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-                     BuildableName = "ocesa_app_mx.app"
-                     BlueprintName = "ocesa_app_mx"
-                     ReferencedContainer = "container:ocesa_app_mx.xcodeproj">
+                     BuildableName = "appocesausa.app"
+                     BlueprintName = "appocesausa"
+                     ReferencedContainer = "container:appocesausa.xcodeproj">
                   </BuildableReference>
                </EnvironmentBuildable>
             </ActionContent>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "ocesa_app_mx.app"
-               BlueprintName = "ocesa_app_mx"
-               ReferencedContainer = "container:ocesa_app_mx.xcodeproj">
+               BuildableName = "appocesausa.app"
+               BlueprintName = "appocesausa"
+               ReferencedContainer = "container:appocesausa.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -51,9 +51,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ocesa_app_mxTests.xctest"
-               BlueprintName = "ocesa_app_mxTests"
-               ReferencedContainer = "container:ocesa_app_mx.xcodeproj">
+               BuildableName = "appocesausaTests.xctest"
+               BlueprintName = "appocesausaTests"
+               ReferencedContainer = "container:appocesausa.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -73,9 +73,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ocesa_app_mx.app"
-            BlueprintName = "ocesa_app_mx"
-            ReferencedContainer = "container:ocesa_app_mx.xcodeproj">
+            BuildableName = "appocesausa.app"
+            BlueprintName = "appocesausa"
+            ReferencedContainer = "container:appocesausa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -90,9 +90,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "ocesa_app_mx.app"
-            BlueprintName = "ocesa_app_mx"
-            ReferencedContainer = "container:ocesa_app_mx.xcodeproj">
+            BuildableName = "appocesausa.app"
+            BlueprintName = "appocesausa"
+            ReferencedContainer = "container:appocesausa.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

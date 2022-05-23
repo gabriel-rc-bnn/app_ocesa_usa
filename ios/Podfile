@@ -3,7 +3,7 @@ require_relative '../node_modules/@react-native-community/cli-platform-ios/nativ
 
 platform :ios, '11.0'
 
-target 'ocesa_app_mx' do
+target 'appocesausa' do
   config = use_native_modules!
 
   use_react_native!(
@@ -18,7 +18,7 @@ target 'ocesa_app_mx' do
   pod 'GoogleMaps'
   pod 'Google-Maps-iOS-Utils'
 
-  target 'ocesa_app_mxTests' do
+  target 'appocesausaTests' do
     inherit! :complete
     # Pods for testing
   end

@@ -1,4 +1,4 @@
-package com.ocesa.app;
+package com.ocesa.usa.app;
 
 import android.os.Bundle;
 import com.facebook.react.ReactActivity;
@@ -18,6 +18,6 @@ public class MainActivity extends ReactActivity {
 
   @Override
   protected String getMainComponentName() {
-    return "ocesa_app_mx";
+    return "appocesausa";
   }
 }

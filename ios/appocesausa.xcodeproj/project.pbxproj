@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ocesa_app_mxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ocesa_app_mxTests.m */; };
+		00E356F31AD99517003FC87E /* appocesausaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* appocesausaTests.m */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1AA13093AAD8344B8C888EA8 /* libPods-ocesa_app_mx-ocesa_app_mxTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E23CDB03ED51696D455BDF /* libPods-ocesa_app_mx-ocesa_app_mxTests.a */; };
+		1AA13093AAD8344B8C888EA8 /* libPods-appocesausa-appocesausaTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4E23CDB03ED51696D455BDF /* libPods-appocesausa-appocesausaTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		BA92A558767F64938CD00C9F /* libPods-ocesa_app_mx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B202D5424A24240B321BD00 /* libPods-ocesa_app_mx.a */; };
+		BA92A558767F64938CD00C9F /* libPods-appocesausa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B202D5424A24240B321BD00 /* libPods-appocesausa.a */; };
 		FD40671C276F101800D61B74 /* Interstate-BoldCondensed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD406710276F101800D61B74 /* Interstate-BoldCondensed.ttf */; };
 		FD40671D276F101800D61B74 /* Interstate-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD406711276F101800D61B74 /* Interstate-Bold.ttf */; };
 		FD40671E276F101800D61B74 /* Interstate-BlackCompressed.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD406712276F101800D61B74 /* Interstate-BlackCompressed.ttf */; };
@@ -38,43 +38,43 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ocesa_app_mx;
+			remoteInfo = appocesausa;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ocesa_app_mxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ocesa_app_mxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* appocesausaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = appocesausaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ocesa_app_mxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ocesa_app_mxTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* appocesausaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = appocesausaTests.m; sourceTree = "<group>"; };
 		11C51376F53347EEB479916D /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ocesa_app_mx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ocesa_app_mx.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ocesa_app_mx/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ocesa_app_mx/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ocesa_app_mx/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ocesa_app_mx/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ocesa_app_mx/main.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* appocesausa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = appocesausa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = appocesausa/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = appocesausa/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = appocesausa/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = appocesausa/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = appocesausa/main.m; sourceTree = "<group>"; };
 		147886EBC2084E0DB6E4D200 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		15754D128DB34BBAB89BC225 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 		3A47FFA6D50243CFBB6685CA /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		4B06DED0FD45474596FACC7E /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		4EB17F02BF9C43F88F7C6E27 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
 		57ACCCCCF57A47E298BE6857 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
-		5BDDE1639877A48EDB191DD5 /* Pods-ocesa_app_mx.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocesa_app_mx.debug.xcconfig"; path = "Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx.debug.xcconfig"; sourceTree = "<group>"; };
+		5BDDE1639877A48EDB191DD5 /* Pods-appocesausa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appocesausa.debug.xcconfig"; path = "Target Support Files/Pods-appocesausa/Pods-appocesausa.debug.xcconfig"; sourceTree = "<group>"; };
 		5C26D5FE2E3A402392FEED02 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
-		6212B6076889C62BECF64DF1 /* Pods-ocesa_app_mx-ocesa_app_mxTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocesa_app_mx-ocesa_app_mxTests.release.xcconfig"; path = "Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests.release.xcconfig"; sourceTree = "<group>"; };
+		6212B6076889C62BECF64DF1 /* Pods-appocesausa-appocesausaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appocesausa-appocesausaTests.release.xcconfig"; path = "Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests.release.xcconfig"; sourceTree = "<group>"; };
 		63B2F7D79CD44A0CB1255CD3 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
 		6F1B65CFBAF24AB1BE4A5F09 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		7C682B55A65745E894B4F56E /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ocesa_app_mx/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = appocesausa/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81C4C79927E1447388930DBE /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
 		838799EB72F944BD85FA00D9 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
 		980C290A07144D9FAB98264C /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
-		9B202D5424A24240B321BD00 /* libPods-ocesa_app_mx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ocesa_app_mx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B202D5424A24240B321BD00 /* libPods-appocesausa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appocesausa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA697B2350844B294D66DAE /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		9D67A5827802048E81F74102 /* Pods-ocesa_app_mx-ocesa_app_mxTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocesa_app_mx-ocesa_app_mxTests.debug.xcconfig"; path = "Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D67A5827802048E81F74102 /* Pods-appocesausa-appocesausaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appocesausa-appocesausaTests.debug.xcconfig"; path = "Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9E38A76A531B45EC85B4C32B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
-		D10D9D87A48D8C21E942FDED /* Pods-ocesa_app_mx.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ocesa_app_mx.release.xcconfig"; path = "Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx.release.xcconfig"; sourceTree = "<group>"; };
-		E4E23CDB03ED51696D455BDF /* libPods-ocesa_app_mx-ocesa_app_mxTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ocesa_app_mx-ocesa_app_mxTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10D9D87A48D8C21E942FDED /* Pods-appocesausa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appocesausa.release.xcconfig"; path = "Target Support Files/Pods-appocesausa/Pods-appocesausa.release.xcconfig"; sourceTree = "<group>"; };
+		E4E23CDB03ED51696D455BDF /* libPods-appocesausa-appocesausaTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-appocesausa-appocesausaTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		FD406710276F101800D61B74 /* Interstate-BoldCondensed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Interstate-BoldCondensed.ttf"; path = "../src/assets/fonts/Interstate-BoldCondensed.ttf"; sourceTree = "<group>"; };
 		FD406711276F101800D61B74 /* Interstate-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Interstate-Bold.ttf"; path = "../src/assets/fonts/Interstate-Bold.ttf"; sourceTree = "<group>"; };
@@ -90,10 +90,10 @@
 		FD40671B276F101800D61B74 /* Interstate-BoldCompressed.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Interstate-BoldCompressed.ttf"; path = "../src/assets/fonts/Interstate-BoldCompressed.ttf"; sourceTree = "<group>"; };
 		FD85354B276E8BE200E7EA4E /* Config.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		FD91573F277075D8003DBA65 /* launch_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_screen.png; sourceTree = "<group>"; };
-		FDBFDCAE2771602300276513 /* ocesa_app_mx.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ocesa_app_mx.entitlements; path = ocesa_app_mx/ocesa_app_mx.entitlements; sourceTree = "<group>"; };
-		FDBFDCAF2771608B00276513 /* ocesa_app_mxRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ocesa_app_mxRelease.entitlements; path = ocesa_app_mx/ocesa_app_mxRelease.entitlements; sourceTree = "<group>"; };
+		FDBFDCAE2771602300276513 /* appocesausa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = appocesausa.entitlements; path = appocesausa/appocesausa.entitlements; sourceTree = "<group>"; };
+		FDBFDCAF2771608B00276513 /* appocesausaRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = appocesausaRelease.entitlements; path = appocesausa/appocesausaRelease.entitlements; sourceTree = "<group>"; };
 		FDC5C9AE276E663C009D0837 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		FDC900CC277138A7003109A1 /* ocesa_app_mx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ocesa_app_mx-Bridging-Header.h"; sourceTree = "<group>"; };
+		FDC900CC277138A7003109A1 /* appocesausa-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "appocesausa-Bridging-Header.h"; sourceTree = "<group>"; };
 		FDC900CD277138A8003109A1 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AA13093AAD8344B8C888EA8 /* libPods-ocesa_app_mx-ocesa_app_mxTests.a in Frameworks */,
+				1AA13093AAD8344B8C888EA8 /* libPods-appocesausa-appocesausaTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,20 +110,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA92A558767F64938CD00C9F /* libPods-ocesa_app_mx.a in Frameworks */,
+				BA92A558767F64938CD00C9F /* libPods-appocesausa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ocesa_app_mxTests */ = {
+		00E356EF1AD99517003FC87E /* appocesausaTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ocesa_app_mxTests.m */,
+				00E356F21AD99517003FC87E /* appocesausaTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ocesa_app_mxTests;
+			path = appocesausaTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -134,11 +134,11 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ocesa_app_mx */ = {
+		13B07FAE1A68108700A75B9A /* appocesausa */ = {
 			isa = PBXGroup;
 			children = (
-				FDBFDCAF2771608B00276513 /* ocesa_app_mxRelease.entitlements */,
-				FDBFDCAE2771602300276513 /* ocesa_app_mx.entitlements */,
+				FDBFDCAF2771608B00276513 /* appocesausaRelease.entitlements */,
+				FDBFDCAE2771602300276513 /* appocesausa.entitlements */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -146,16 +146,16 @@
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = ocesa_app_mx;
+			name = appocesausa;
 			sourceTree = "<group>";
 		};
 		284E45DFD90DE9E489CB7463 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5BDDE1639877A48EDB191DD5 /* Pods-ocesa_app_mx.debug.xcconfig */,
-				D10D9D87A48D8C21E942FDED /* Pods-ocesa_app_mx.release.xcconfig */,
-				9D67A5827802048E81F74102 /* Pods-ocesa_app_mx-ocesa_app_mxTests.debug.xcconfig */,
-				6212B6076889C62BECF64DF1 /* Pods-ocesa_app_mx-ocesa_app_mxTests.release.xcconfig */,
+				5BDDE1639877A48EDB191DD5 /* Pods-appocesausa.debug.xcconfig */,
+				D10D9D87A48D8C21E942FDED /* Pods-appocesausa.release.xcconfig */,
+				9D67A5827802048E81F74102 /* Pods-appocesausa-appocesausaTests.debug.xcconfig */,
+				6212B6076889C62BECF64DF1 /* Pods-appocesausa-appocesausaTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -164,8 +164,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				9B202D5424A24240B321BD00 /* libPods-ocesa_app_mx.a */,
-				E4E23CDB03ED51696D455BDF /* libPods-ocesa_app_mx-ocesa_app_mxTests.a */,
+				9B202D5424A24240B321BD00 /* libPods-appocesausa.a */,
+				E4E23CDB03ED51696D455BDF /* libPods-appocesausa-appocesausaTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,14 +219,14 @@
 				FD91573F277075D8003DBA65 /* launch_screen.png */,
 				FD85354B276E8BE200E7EA4E /* Config.xcconfig */,
 				FDC5C9AE276E663C009D0837 /* GoogleService-Info.plist */,
-				13B07FAE1A68108700A75B9A /* ocesa_app_mx */,
+				13B07FAE1A68108700A75B9A /* appocesausa */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ocesa_app_mxTests */,
+				00E356EF1AD99517003FC87E /* appocesausaTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				284E45DFD90DE9E489CB7463 /* Pods */,
 				3F06B87D31DD4CCEB8DE3679 /* Resources */,
-				FDC900CC277138A7003109A1 /* ocesa_app_mx-Bridging-Header.h */,
+				FDC900CC277138A7003109A1 /* appocesausa-Bridging-Header.h */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -236,8 +236,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ocesa_app_mx.app */,
-				00E356EE1AD99517003FC87E /* ocesa_app_mxTests.xctest */,
+				13B07F961A680F5B00A75B9A /* appocesausa.app */,
+				00E356EE1AD99517003FC87E /* appocesausaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -245,9 +245,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ocesa_app_mxTests */ = {
+		00E356ED1AD99517003FC87E /* appocesausaTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ocesa_app_mxTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "appocesausaTests" */;
 			buildPhases = (
 				57BBE9484279FA1E4DCB1193 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -261,14 +261,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ocesa_app_mxTests;
-			productName = ocesa_app_mxTests;
-			productReference = 00E356EE1AD99517003FC87E /* ocesa_app_mxTests.xctest */;
+			name = appocesausaTests;
+			productName = appocesausaTests;
+			productReference = 00E356EE1AD99517003FC87E /* appocesausaTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ocesa_app_mx */ = {
+		13B07F861A680F5B00A75B9A /* appocesausa */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ocesa_app_mx" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "appocesausa" */;
 			buildPhases = (
 				10386F0AFE2C55F8720E215E /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -284,9 +284,9 @@
 			);
 			dependencies = (
 			);
-			name = ocesa_app_mx;
-			productName = ocesa_app_mx;
-			productReference = 13B07F961A680F5B00A75B9A /* ocesa_app_mx.app */;
+			name = appocesausa;
+			productName = appocesausa;
+			productReference = 13B07F961A680F5B00A75B9A /* appocesausa.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -306,7 +306,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ocesa_app_mx" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "appocesausa" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -319,8 +319,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ocesa_app_mx */,
-				00E356ED1AD99517003FC87E /* ocesa_app_mxTests */,
+				13B07F861A680F5B00A75B9A /* appocesausa */,
+				00E356ED1AD99517003FC87E /* appocesausaTests */,
 			);
 		};
 /* End PBXProject section */
@@ -380,15 +380,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		10386F0AFE2C55F8720E215E /* [CP] Check Pods Manifest.lock */ = {
@@ -406,7 +406,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ocesa_app_mx-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-appocesausa-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -419,15 +419,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa/Pods-appocesausa-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa/Pods-appocesausa-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appocesausa/Pods-appocesausa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		392C93A88B35494454E5F645 /* [CP-User] [RNFB] Core Configuration */ = {
@@ -458,7 +458,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ocesa_app_mx-ocesa_app_mxTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-appocesausa-appocesausaTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -471,15 +471,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa/Pods-appocesausa-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa/Pods-appocesausa-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx/Pods-ocesa_app_mx-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appocesausa/Pods-appocesausa-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FAE9AE55DC2FA54E00F2D388 /* [CP] Copy Pods Resources */ = {
@@ -488,15 +488,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ocesa_app_mx-ocesa_app_mxTests/Pods-ocesa_app_mx-ocesa_app_mxTests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-appocesausa-appocesausaTests/Pods-appocesausa-appocesausaTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -525,7 +525,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ocesa_app_mxTests.m in Sources */,
+				00E356F31AD99517003FC87E /* appocesausaTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,7 +544,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ocesa_app_mx */;
+			target = 13B07F861A680F5B00A75B9A /* appocesausa */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -552,7 +552,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D67A5827802048E81F74102 /* Pods-ocesa_app_mx-ocesa_app_mxTests.debug.xcconfig */;
+			baseConfigurationReference = 9D67A5827802048E81F74102 /* Pods-appocesausa-appocesausaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -560,7 +560,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ocesa_app_mxTests/Info.plist;
+				INFOPLIST_FILE = appocesausaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -574,18 +574,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocesa_app_mx.app/ocesa_app_mx";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appocesausa.app/appocesausa";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6212B6076889C62BECF64DF1 /* Pods-ocesa_app_mx-ocesa_app_mxTests.release.xcconfig */;
+			baseConfigurationReference = 6212B6076889C62BECF64DF1 /* Pods-appocesausa-appocesausaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ocesa_app_mxTests/Info.plist;
+				INFOPLIST_FILE = appocesausaTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -599,23 +599,23 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ocesa_app_mx.app/ocesa_app_mx";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/appocesausa.app/appocesausa";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5BDDE1639877A48EDB191DD5 /* Pods-ocesa_app_mx.debug.xcconfig */;
+			baseConfigurationReference = 5BDDE1639877A48EDB191DD5 /* Pods-appocesausa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ocesa_app_mx/ocesa_app_mx.entitlements;
+				CODE_SIGN_ENTITLEMENTS = appocesausa/appocesausa.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EB5DG45GW5;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = ocesa_app_mx/Info.plist;
+				INFOPLIST_FILE = appocesausa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -627,9 +627,9 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ocesa.app;
-				PRODUCT_NAME = ocesa_app_mx;
+				PRODUCT_NAME = appocesausa;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ocesa_app_mx-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "appocesausa-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -638,16 +638,16 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D10D9D87A48D8C21E942FDED /* Pods-ocesa_app_mx.release.xcconfig */;
+			baseConfigurationReference = D10D9D87A48D8C21E942FDED /* Pods-appocesausa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_ENTITLEMENTS = ocesa_app_mx/ocesa_app_mxRelease.entitlements;
+				CODE_SIGN_ENTITLEMENTS = appocesausa/appocesausaRelease.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = EB5DG45GW5;
-				INFOPLIST_FILE = ocesa_app_mx/Info.plist;
+				INFOPLIST_FILE = appocesausa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -659,9 +659,9 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ocesa.app;
-				PRODUCT_NAME = ocesa_app_mx;
+				PRODUCT_NAME = appocesausa;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_OBJC_BRIDGING_HEADER = "ocesa_app_mx-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "appocesausa-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -799,7 +799,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ocesa_app_mxTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "appocesausaTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -808,7 +808,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ocesa_app_mx" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "appocesausa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -817,7 +817,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ocesa_app_mx" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "appocesausa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

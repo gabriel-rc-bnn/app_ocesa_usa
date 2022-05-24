@@ -112,8 +112,7 @@ const MenuScreen = ({ navigation }) => {
     if (Platform.OS === 'ios' && parseFloat(Platform.Version) >= 13) {
       return (
         <AppleButton
-          buttonStyle={AppleButton.Style.WHITE_OUTLINE}
-          buttonType={AppleButton.Type.SIGN_IN}
+          buttonType={AppleButton.Type.SIGN_UP}
           style={[Styles.buttonAlignEnd, { height: 42 }]}
           onPress={() => setModalTermsIOS(true)}
         />
